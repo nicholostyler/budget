@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+        flex-direction: row;
+        margin-left: 2rem;
+        background-color: white;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+        border-radius: 10px;
+        padding: 12px;
+        margin-right: 12px;
+}
+
+.item-title {
+    color: black;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.description {
+    flex-grow: 0;
+}
+
+.amount {
+    flex-grow: 1;
+    text-align: right;
+}
